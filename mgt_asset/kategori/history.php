@@ -82,7 +82,7 @@ if(isset($_POST['cari'])){
             </nav>
 
             <div class="container-fluid">
-                <h1 class="h3 mb-2 text-gray-800">DETAIL EMPLOYE</h1>
+                <h1 class="h3 mb-2 text-gray-800">HISTORY</h1>
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
                         <h6 class="m-0 font-weight-bold text-primary"><a href="tambah_employe.php">+ Tambah Employe</a></h6>
@@ -92,7 +92,7 @@ if(isset($_POST['cari'])){
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                        <th style="">KATEGORI</th>
+                                        <th>NOMOR ASET</th>
                                         <th>EMPLOYE NAME BEFORE</th>
                                         <th>EMPLOYE NAME NOW</th>
                                         <th>DETAIL</th>
@@ -110,12 +110,12 @@ if(isset($_POST['cari'])){
                                                     <button class="btn btn-primary"><i class="fa fa-edit"></i> Detail</button>
                                                 </a>
                                             </td>
+                                            <!-- <a href="../hapus dan edit/edit_employe.php?id=<?=$row['nomor_aset'];?>" style="margin-right:2%">
+                                                <button class='btn btn-warning d-flex justify-content-center'>
+                                                    <i class="fa fa-edit"></i> Edit
+                                                </button>
+                                            </a> -->
                                             <td class="d-flex justify-content-center">
-                                                <a href="../hapus dan edit/edit_employe.php?id=<?=$row['nomor_aset'];?>" style="margin-right:2%">
-                                                    <button class='btn btn-warning d-flex justify-content-center'>
-                                                        <i class="fa fa-edit"></i> Edit
-                                                    </button>
-                                                </a>
                                                 <a href="../hapus dan edit/hapus_employe.php?id=<?=$row['nomor_aset'];?>" onclick="return confirm('yakin untuk menghapus?');">
                                                     <button class='btn btn-danger d-flex justify-content-center'>
                                                         <i class="fa fa-trash"></i> Hapus

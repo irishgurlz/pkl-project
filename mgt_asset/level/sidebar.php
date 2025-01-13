@@ -70,6 +70,7 @@
                         <a class="collapse-item" href="../kategori/kelola_kategori.php">KELOLA CATEGORY</a>
                         <a class="collapse-item" href="../kategori/data_kategori.php">CATEGORY</a>
                         <a class="collapse-item" href="../kategori/data_type_kategori.php">TYPE CATEGORY</a>
+                        <a class="collapse-item" href="kategori/history.php">HISTORY</a>
                     </div>
                 </div>
             </li>

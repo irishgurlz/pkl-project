@@ -136,8 +136,7 @@ if(isset($_POST['cari'])){
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
-                                    <th>NOMOR IT</th>
-                                    <!-- <th>EMPLOYE NIK</th> -->
+                                    <th>NOMOR ASET</th>
                                     <th>EMPLOYE NAME BEFORE</th>
                                     <th>EMPLOYE NAME NOW</th>
                                     <th>EMPLOYE ORG</th>
